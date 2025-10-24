@@ -1,3 +1,6 @@
+import math
+from stringprep import b1_set
+
 a = float(input(" digite o valor de a: "))
 if a == 0:
     print("não é uma equação do segundo grau")
@@ -14,7 +17,9 @@ else:
         print("a equação possui raízes reais")
 
     else:
-        x1 = (-b + delta ) / 2*a
-        x2 = ( -b - delta ) / 2*a
+        raiz = math.sqrt(delta)
+        x1 = ((b1_set2
+               1*-1 )+ raiz)  / 2*a
+        x2 = (( b * -1 ) - raiz) / 2*a
         print("o x1 dessa equação é ",x1)
         print(" o x2 dessa equação é",x2)
